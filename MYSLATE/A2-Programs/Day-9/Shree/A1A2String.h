@@ -1,0 +1,15 @@
+int strLen(char str[]);
+char * strCopy(char des[],char src[]);
+int strComp(char str1[] , char str2[]);
+char * strRev(char str[]);
+char * strCat(char des[],char src[]);
+char * strNrev(char str[],int no_of_char);
+char * NstrRev(char str[]);
+char * strChr(char str[] , char search);
+char * strStr(char str[],char search[]);
+char * strUpr(char str[]);
+char * strLwr(char str[]);
+char * strWordRev1(char str[]);
+char * strWordRev2(char str[]);
+char * vowelRemover(char str[]);
+char * duplicateRemover(char str[]);
