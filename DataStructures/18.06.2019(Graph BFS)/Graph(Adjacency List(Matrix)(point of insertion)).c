@@ -47,7 +47,7 @@ void insert(char vertex1, char vertex2, int weight){
 
 int main(){
 
-	for(int i=0; i<vertices; i++){
+	for(int i=0; i<edge; i++){
 		insert(edges[i].vertex1, edges[i].vertex2, edges[i].weight);
 		insert(edges[i].vertex2, edges[i].vertex1, edges[i].weight);
 	}
