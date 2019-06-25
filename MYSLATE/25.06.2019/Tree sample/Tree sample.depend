@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1561486080 source:f:\c-programs\c-programs\myslate\25.06.2019\tree sample\main.c
+	<stdio.h>
+	<stdlib.h>
+
