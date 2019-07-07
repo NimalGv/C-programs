@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define SIZE 5
-#define STRINGLEN 2
+#define STRINGLEN 5
 
 char table[][SIZE]={
                   {'D', 'L', 'A', 'B', 'L'},
@@ -13,7 +13,7 @@ char table[][SIZE]={
 
 int pattern[SIZE][SIZE];
 
-char key[]="ML";
+char key[]="NIMAL";
 
 int found=0;
 
@@ -31,7 +31,7 @@ void findString(int row, int column, int keyIndex){
 
     if(key[STRINGLEN-1]==key[keyIndex]){
         printPattern();
-        //found=1;
+        found=1;
     }
    //Left
    if(column-1 >= 0 && table[row][column-1]==key[keyIndex+1] && !found){

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1562341723 source:f:\c-programs\c-programs\myslate\25.06.2019\possible words in phone digits\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
