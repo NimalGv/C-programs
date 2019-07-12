@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562937182 source:f:\c-programs\c-programs\myslate\25.06.2019\next biggest number\main.c
+	<stdio.h>
+	<stdlib.h>
+
